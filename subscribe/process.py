@@ -739,7 +739,7 @@ if __name__ == "__main__":
         "--check",
         dest="check",
         action="store_true",
-        default=False,
+        default=True,
         help="only check proxies are alive",
     )
 
